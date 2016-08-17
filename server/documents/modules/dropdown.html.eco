@@ -2319,7 +2319,7 @@ themes      : ['Default', 'GitHub', 'Material']
         <tr>
           <td>hideAdditions</td>
           <td>true</td>
-          <td>When disabled user additions will appear in the results menu using a specially formatted selection item formatted by <code>templates.addition</code>.</td>
+          <td>When disabled user additions will appear in the results menu using a specially formatted selection item formatted by <code>templates.addition</code>. Must be set to true when <code>allowAdditions</code> is <code>true</code> to show the <code>addResult-message</code>.</td>
         </tr>
         <tr>
           <td>action</td>
